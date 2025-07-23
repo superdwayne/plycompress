@@ -5,11 +5,11 @@ from multiprocessing import Process
 
 def run_streamlit():
     """Run Streamlit app"""
-    subprocess.run([sys.executable, "-m", "streamlit", "run", "app.py", "--server.port", "8501"])
+    subprocess.run([sys.executable, "-m", "streamlit", "run", "web/app.py", "--server.port", "8501"])
 
 def run_fastapi():
     """Run FastAPI app"""
-    subprocess.run([sys.executable, "api.py"])
+    subprocess.run([sys.executable, "api/api.py"])
 
 if __name__ == "__main__":
     print("Starting PLY Compress services...")
