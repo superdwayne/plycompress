@@ -1,8 +1,0 @@
-streamlit
-plyfile
-numpy
-
-# New API dependencies
-fastapi
-uvicorn[standard]
-python-multipart
