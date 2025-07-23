@@ -56,4 +56,10 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## API Usage
 
+The application now includes a REST API endpoint for programmatic access.
+
+### Starting the API
+```bash
+python api.py

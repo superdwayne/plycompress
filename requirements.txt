@@ -1,5 +1,3 @@
-
-# Existing dependencies (keep your current ones)
 streamlit
 plyfile
 numpy
